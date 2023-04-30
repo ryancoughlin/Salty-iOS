@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D12980D277E66000044C2C9 /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D129806277E65FF0044C2C9 /* StationViewModel.swift */; };
+		5D129810277E66000044C2C9 /* PhraseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D129809277E65FF0044C2C9 /* PhraseViewModel.swift */; };
+		5D129811277E66000044C2C9 /* Tides.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D12980A277E65FF0044C2C9 /* Tides.json */; };
+		5D129812277E66000044C2C9 /* TideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D12980B277E65FF0044C2C9 /* TideView.swift */; };
+		5D129813277E66000044C2C9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D12980C277E66000044C2C9 /* Network.swift */; };
+		5D9EF0502781389A006236CB /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF04F27813899006236CB /* Station.swift */; };
+		5D9EF05327824A09006236CB /* TodaysTides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF05227824A09006236CB /* TodaysTides.swift */; };
+		5D9EF05527824A15006236CB /* TodaysTidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */; };
 		5D9FBFDA27657998002E5431 /* SaltyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFD927657998002E5431 /* SaltyApp.swift */; };
-		5D9FBFDC27657998002E5431 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFDB27657998002E5431 /* ContentView.swift */; };
+		5D9FBFDC27657998002E5431 /* StationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFDB27657998002E5431 /* StationScreen.swift */; };
 		5D9FBFDE2765799A002E5431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9FBFDD2765799A002E5431 /* Assets.xcassets */; };
 		5D9FBFE12765799A002E5431 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9FBFE02765799A002E5431 /* Preview Assets.xcassets */; };
 		5D9FBFEB2765799A002E5431 /* SaltyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFEA2765799A002E5431 /* SaltyTests.swift */; };
 		5D9FBFF52765799A002E5431 /* SaltyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFF42765799A002E5431 /* SaltyUITests.swift */; };
 		5D9FBFF72765799A002E5431 /* SaltyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFF62765799A002E5431 /* SaltyUITestsLaunchTests.swift */; };
+		5DAEABA429FDCAD400E54252 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEABA329FDCAD400E54252 /* WidgetView.swift */; };
+		5DF51C69277661B100FB30BD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF51C68277661B100FB30BD /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +43,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5DAEAB9D29FDC96C00E54252 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5D129806277E65FF0044C2C9 /* StationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
+		5D129809277E65FF0044C2C9 /* PhraseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseViewModel.swift; sourceTree = "<group>"; };
+		5D12980A277E65FF0044C2C9 /* Tides.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tides.json; sourceTree = "<group>"; };
+		5D12980B277E65FF0044C2C9 /* TideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TideView.swift; sourceTree = "<group>"; };
+		5D12980C277E66000044C2C9 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		5D9EF04F27813899006236CB /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		5D9EF05227824A09006236CB /* TodaysTides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTides.swift; sourceTree = "<group>"; };
+		5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTidesViewModel.swift; sourceTree = "<group>"; };
 		5D9FBFD627657998002E5431 /* Salty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9FBFD927657998002E5431 /* SaltyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltyApp.swift; sourceTree = "<group>"; };
-		5D9FBFDB27657998002E5431 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D9FBFDB27657998002E5431 /* StationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationScreen.swift; sourceTree = "<group>"; };
 		5D9FBFDD2765799A002E5431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D9FBFE02765799A002E5431 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D9FBFE62765799A002E5431 /* SaltyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaltyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +75,10 @@
 		5D9FBFF02765799A002E5431 /* SaltyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaltyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9FBFF42765799A002E5431 /* SaltyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltyUITests.swift; sourceTree = "<group>"; };
 		5D9FBFF62765799A002E5431 /* SaltyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DAEAB8629FDC96900E54252 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5DAEAB8829FDC96900E54252 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5DAEABA329FDCAD400E54252 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
+		5DF51C68277661B100FB30BD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +106,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A850CA7DF1751A817CC08AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DAEAB8629FDC96900E54252 /* WidgetKit.framework */,
+				5DAEAB8829FDC96900E54252 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D16CCDE277B5EDF0057F5A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D9EF051278138C5006236CB /* Dummy Data */ = {
+			isa = PBXGroup;
+			children = (
+				5D12980A277E65FF0044C2C9 /* Tides.json */,
+			);
+			path = "Dummy Data";
+			sourceTree = "<group>";
+		};
 		5D9FBFCD27657998002E5431 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +137,8 @@
 				5D9FBFE92765799A002E5431 /* SaltyTests */,
 				5D9FBFF32765799A002E5431 /* SaltyUITests */,
 				5D9FBFD727657998002E5431 /* Products */,
+				8302F0024C0A165087667BCD /* Pods */,
+				5A850CA7DF1751A817CC08AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +155,19 @@
 		5D9FBFD827657998002E5431 /* Salty */ = {
 			isa = PBXGroup;
 			children = (
+				5D16CCDE277B5EDF0057F5A5 /* Views */,
 				5D9FBFD927657998002E5431 /* SaltyApp.swift */,
-				5D9FBFDB27657998002E5431 /* ContentView.swift */,
+				5D9FBFDB27657998002E5431 /* StationScreen.swift */,
+				5DAEABA329FDCAD400E54252 /* WidgetView.swift */,
+				5D9EF05227824A09006236CB /* TodaysTides.swift */,
+				5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */,
+				5D9EF04F27813899006236CB /* Station.swift */,
+				5D129809277E65FF0044C2C9 /* PhraseViewModel.swift */,
+				5D9EF051278138C5006236CB /* Dummy Data */,
+				5D12980C277E66000044C2C9 /* Network.swift */,
+				5D129806277E65FF0044C2C9 /* StationViewModel.swift */,
+				5D12980B277E65FF0044C2C9 /* TideView.swift */,
+				5DF51C68277661B100FB30BD /* LocationManager.swift */,
 				5D9FBFDD2765799A002E5431 /* Assets.xcassets */,
 				5D9FBFDF2765799A002E5431 /* Preview Content */,
 			);
@@ -127,6 +199,13 @@
 			path = SaltyUITests;
 			sourceTree = "<group>";
 		};
+		8302F0024C0A165087667BCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +216,7 @@
 				5D9FBFD227657998002E5431 /* Sources */,
 				5D9FBFD327657998002E5431 /* Frameworks */,
 				5D9FBFD427657998002E5431 /* Resources */,
+				5DAEAB9D29FDC96C00E54252 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -190,7 +270,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					5D9FBFD527657998002E5431 = {
@@ -233,6 +313,7 @@
 			files = (
 				5D9FBFE12765799A002E5431 /* Preview Assets.xcassets in Resources */,
 				5D9FBFDE2765799A002E5431 /* Assets.xcassets in Resources */,
+				5D129811277E66000044C2C9 /* Tides.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +338,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D9FBFDC27657998002E5431 /* ContentView.swift in Sources */,
+				5D129812277E66000044C2C9 /* TideView.swift in Sources */,
+				5D129813277E66000044C2C9 /* Network.swift in Sources */,
+				5D9EF05527824A15006236CB /* TodaysTidesViewModel.swift in Sources */,
+				5D129810277E66000044C2C9 /* PhraseViewModel.swift in Sources */,
+				5D12980D277E66000044C2C9 /* StationViewModel.swift in Sources */,
+				5D9FBFDC27657998002E5431 /* StationScreen.swift in Sources */,
+				5DF51C69277661B100FB30BD /* LocationManager.swift in Sources */,
+				5DAEABA429FDCAD400E54252 /* WidgetView.swift in Sources */,
+				5D9EF05327824A09006236CB /* TodaysTides.swift in Sources */,
 				5D9FBFDA27657998002E5431 /* SaltyApp.swift in Sources */,
+				5D9EF0502781389A006236CB /* Station.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +511,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Salty/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Find tides near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +540,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Salty/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Find tides near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

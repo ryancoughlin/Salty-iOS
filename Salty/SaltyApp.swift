@@ -11,7 +11,7 @@ import SwiftUI
 struct SaltyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StationScreen()
         }
     }
 }
