@@ -3,40 +3,46 @@ import SwiftUI
 struct WidgetView: View {
     let station: Station
     
-    var nextTide: Station.Tide? {
-        let now = Date()
-        return station.tides.flatMap { $0.value }.sorted { $0.time < $1.time }.first { $0.time > now }
-    }
-    
-    var remainingTime: String {
-        if let nextTide = nextTide {
-            let remainingTimeInterval = nextTide.time.timeIntervalSinceNow
-            let remainingHours = Int(remainingTimeInterval) / 3600
-            let remainingMinutes = Int(remainingTimeInterval) % 3600 / 60
-            return "\(remainingHours)h \(remainingMinutes)m"
+    var timeRemaining: String {
+        guard let todayTides = station.todayTides else {
+            return "N/A"
         }
-        return "Unknown"
+        
+        let currentTime = Date()
+        let nextTide = todayTides.first { $0.time > currentTime }
+        
+        guard let tide = nextTide else {
+            return "N/A"
+        }
+        
+        let timeInterval = tide.time.timeIntervalSince(currentTime)
+        let formatter = DateComponentsFormatter()
+        formatter.allowedUnits = [.hour, .minute, .second]
+        formatter.unitsStyle = .abbreviated
+        
+        return formatter.string(from: timeInterval) ?? "N/A"
     }
     
     var body: some View {
         VStack {
-            Text("Next Tide:")
-            if let nextTide = nextTide {
-                let tideType = nextTide.type
-                let tideDirection = tideType == .high ? "Outgoing" : "Incoming"
-                Text("\(tideType.rawValue.capitalized) at \(nextTide.time.description) (\(tideDirection))")
-                Text("Time remaining: \(remainingTime)")
+            Text("Current Tide")
+                .font(.title2)
+                .bold()
+            
+            if let todayTides = station.todayTides, let nextTide = todayTides.first {
+                Text("\(nextTide.type.rawValue.capitalized) Tide")
+                    .font(.title)
+                    .bold()
+                
+                Text("Height: \(nextTide.height, specifier: "%.2f")")
+                    .font(.body)
+                
+                Text("Time Remaining: \(timeRemaining)")
+                    .font(.caption)
             } else {
-                Text("No tide information available")
+                Text("No tide data available")
             }
         }
-    }
-}
-
-struct WidgetView_Previews: PreviewProvider {
-    static var previews: some View {
-        WidgetView(station: Station.loadDummyData()!)
-            .previewLayout(.sizeThatFits)
-            .padding()
+        .padding()
     }
 }

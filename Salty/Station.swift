@@ -7,7 +7,6 @@ struct Station: Identifiable, Decodable {
     let latitude: String
     let longitude: String
     let tides: [String: [Tide]]
-    let nextTide: Tide
     
     var location: CLLocation {
         guard let latitude = Double(latitude) else {

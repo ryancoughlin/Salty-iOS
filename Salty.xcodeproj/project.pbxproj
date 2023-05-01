@@ -8,10 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		5D12980D277E66000044C2C9 /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D129806277E65FF0044C2C9 /* StationViewModel.swift */; };
-		5D129810277E66000044C2C9 /* PhraseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D129809277E65FF0044C2C9 /* PhraseViewModel.swift */; };
 		5D129811277E66000044C2C9 /* Tides.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D12980A277E65FF0044C2C9 /* Tides.json */; };
 		5D129812277E66000044C2C9 /* TideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D12980B277E65FF0044C2C9 /* TideView.swift */; };
 		5D129813277E66000044C2C9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D12980C277E66000044C2C9 /* Network.swift */; };
+		5D3CEA1629FEABDF004B8801 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAEAB8629FDC96900E54252 /* WidgetKit.framework */; };
+		5D3CEA1729FEABDF004B8801 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAEAB8829FDC96900E54252 /* SwiftUI.framework */; };
+		5D3CEA1C29FEABDF004B8801 /* Salty_WidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA1B29FEABDF004B8801 /* Salty_WidgetLiveActivity.swift */; };
+		5D3CEA1E29FEABDF004B8801 /* Salty_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA1D29FEABDF004B8801 /* Salty_Widget.swift */; };
+		5D3CEA2129FEABE2004B8801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3CEA2029FEABE2004B8801 /* Assets.xcassets */; };
+		5D3CEA2329FEABE2004B8801 /* Salty_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA1F29FEABDF004B8801 /* Salty_Widget.intentdefinition */; };
+		5D3CEA2429FEABE2004B8801 /* Salty_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA1F29FEABDF004B8801 /* Salty_Widget.intentdefinition */; };
+		5D3CEA2729FEABE2004B8801 /* Salty WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D3CEA1529FEABDF004B8801 /* Salty WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D3CEA2B29FEBFD6004B8801 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEABA329FDCAD400E54252 /* WidgetView.swift */; };
+		5D3CEA2C29FEBFDA004B8801 /* TodaysTidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */; };
+		5D3CEA2E29FEC04A004B8801 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF04F27813899006236CB /* Station.swift */; };
+		5D3CEA2F29FEC8E3004B8801 /* Tides.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D12980A277E65FF0044C2C9 /* Tides.json */; };
+		5D3CEA3129FED1E1004B8801 /* TideList .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3029FED1E1004B8801 /* TideList .swift */; };
+		5D3CEA3329FED55F004B8801 /* TideDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3229FED55F004B8801 /* TideDirection.swift */; };
+		5D3CEA3529FED8CA004B8801 /* TideCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3429FED8CA004B8801 /* TideCountdown.swift */; };
+		5D3CEA3729FEE106004B8801 /* NextTideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3629FEE106004B8801 /* NextTideView.swift */; };
+		5D3CEA3929FEFF27004B8801 /* NextTideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3829FEFF27004B8801 /* NextTideViewModel.swift */; };
+		5D3CEA3B29FEFFED004B8801 /* NextTideWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3A29FEFFED004B8801 /* NextTideWrapperView.swift */; };
+		5D3CEA3D29FF2320004B8801 /* TideChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3C29FF2320004B8801 /* TideChart.swift */; };
+		5D3CEA4029FF2C63004B8801 /* TideChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */; };
 		5D9EF0502781389A006236CB /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF04F27813899006236CB /* Station.swift */; };
 		5D9EF05327824A09006236CB /* TodaysTides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF05227824A09006236CB /* TodaysTides.swift */; };
 		5D9EF05527824A15006236CB /* TodaysTidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */; };
@@ -27,6 +46,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5D3CEA2529FEABE2004B8801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D9FBFCE27657998002E5431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D3CEA1429FEABDF004B8801;
+			remoteInfo = "Salty WidgetExtension";
+		};
 		5D9FBFE72765799A002E5431 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5D9FBFCE27657998002E5431 /* Project object */;
@@ -50,6 +76,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				5D3CEA2729FEABE2004B8801 /* Salty WidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,10 +85,23 @@
 
 /* Begin PBXFileReference section */
 		5D129806277E65FF0044C2C9 /* StationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
-		5D129809277E65FF0044C2C9 /* PhraseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseViewModel.swift; sourceTree = "<group>"; };
 		5D12980A277E65FF0044C2C9 /* Tides.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tides.json; sourceTree = "<group>"; };
 		5D12980B277E65FF0044C2C9 /* TideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TideView.swift; sourceTree = "<group>"; };
 		5D12980C277E66000044C2C9 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		5D3CEA1529FEABDF004B8801 /* Salty WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Salty WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3CEA1B29FEABDF004B8801 /* Salty_WidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salty_WidgetLiveActivity.swift; sourceTree = "<group>"; };
+		5D3CEA1D29FEABDF004B8801 /* Salty_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salty_Widget.swift; sourceTree = "<group>"; };
+		5D3CEA1F29FEABDF004B8801 /* Salty_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Salty_Widget.intentdefinition; sourceTree = "<group>"; };
+		5D3CEA2029FEABE2004B8801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D3CEA2229FEABE2004B8801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3CEA3029FED1E1004B8801 /* TideList .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TideList .swift"; sourceTree = "<group>"; };
+		5D3CEA3229FED55F004B8801 /* TideDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideDirection.swift; sourceTree = "<group>"; };
+		5D3CEA3429FED8CA004B8801 /* TideCountdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TideCountdown.swift; path = Views/TideCountdown.swift; sourceTree = "<group>"; };
+		5D3CEA3629FEE106004B8801 /* NextTideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTideView.swift; sourceTree = "<group>"; };
+		5D3CEA3829FEFF27004B8801 /* NextTideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTideViewModel.swift; sourceTree = "<group>"; };
+		5D3CEA3A29FEFFED004B8801 /* NextTideWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTideWrapperView.swift; sourceTree = "<group>"; };
+		5D3CEA3C29FF2320004B8801 /* TideChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideChart.swift; sourceTree = "<group>"; };
+		5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideChartView.swift; sourceTree = "<group>"; };
 		5D9EF04F27813899006236CB /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		5D9EF05227824A09006236CB /* TodaysTides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTides.swift; sourceTree = "<group>"; };
 		5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTidesViewModel.swift; sourceTree = "<group>"; };
@@ -82,6 +122,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5D3CEA1229FEABDF004B8801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3CEA1729FEABDF004B8801 /* SwiftUI.framework in Frameworks */,
+				5D3CEA1629FEABDF004B8801 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D9FBFD327657998002E5431 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,6 +171,18 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		5D3CEA1829FEABDF004B8801 /* Salty Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5D3CEA1B29FEABDF004B8801 /* Salty_WidgetLiveActivity.swift */,
+				5D3CEA1D29FEABDF004B8801 /* Salty_Widget.swift */,
+				5D3CEA1F29FEABDF004B8801 /* Salty_Widget.intentdefinition */,
+				5D3CEA2029FEABE2004B8801 /* Assets.xcassets */,
+				5D3CEA2229FEABE2004B8801 /* Info.plist */,
+			);
+			path = "Salty Widget";
+			sourceTree = "<group>";
+		};
 		5D9EF051278138C5006236CB /* Dummy Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,11 +194,15 @@
 		5D9FBFCD27657998002E5431 = {
 			isa = PBXGroup;
 			children = (
+				5D3CEA3A29FEFFED004B8801 /* NextTideWrapperView.swift */,
+				5D3CEA3829FEFF27004B8801 /* NextTideViewModel.swift */,
+				5D3CEA3229FED55F004B8801 /* TideDirection.swift */,
+				5D3CEA3029FED1E1004B8801 /* TideList .swift */,
 				5D9FBFD827657998002E5431 /* Salty */,
 				5D9FBFE92765799A002E5431 /* SaltyTests */,
 				5D9FBFF32765799A002E5431 /* SaltyUITests */,
+				5D3CEA1829FEABDF004B8801 /* Salty Widget */,
 				5D9FBFD727657998002E5431 /* Products */,
-				8302F0024C0A165087667BCD /* Pods */,
 				5A850CA7DF1751A817CC08AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -148,6 +213,7 @@
 				5D9FBFD627657998002E5431 /* Salty.app */,
 				5D9FBFE62765799A002E5431 /* SaltyTests.xctest */,
 				5D9FBFF02765799A002E5431 /* SaltyUITests.xctest */,
+				5D3CEA1529FEABDF004B8801 /* Salty WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,11 +224,14 @@
 				5D16CCDE277B5EDF0057F5A5 /* Views */,
 				5D9FBFD927657998002E5431 /* SaltyApp.swift */,
 				5D9FBFDB27657998002E5431 /* StationScreen.swift */,
+				5D3CEA3C29FF2320004B8801 /* TideChart.swift */,
+				5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */,
+				5D3CEA3629FEE106004B8801 /* NextTideView.swift */,
 				5DAEABA329FDCAD400E54252 /* WidgetView.swift */,
+				5D3CEA3429FED8CA004B8801 /* TideCountdown.swift */,
 				5D9EF05227824A09006236CB /* TodaysTides.swift */,
 				5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */,
 				5D9EF04F27813899006236CB /* Station.swift */,
-				5D129809277E65FF0044C2C9 /* PhraseViewModel.swift */,
 				5D9EF051278138C5006236CB /* Dummy Data */,
 				5D12980C277E66000044C2C9 /* Network.swift */,
 				5D129806277E65FF0044C2C9 /* StationViewModel.swift */,
@@ -199,16 +268,26 @@
 			path = SaltyUITests;
 			sourceTree = "<group>";
 		};
-		8302F0024C0A165087667BCD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5D3CEA1429FEABDF004B8801 /* Salty WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3CEA2A29FEABE2004B8801 /* Build configuration list for PBXNativeTarget "Salty WidgetExtension" */;
+			buildPhases = (
+				5D3CEA1129FEABDF004B8801 /* Sources */,
+				5D3CEA1229FEABDF004B8801 /* Frameworks */,
+				5D3CEA1329FEABDF004B8801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salty WidgetExtension";
+			productName = "Salty WidgetExtension";
+			productReference = 5D3CEA1529FEABDF004B8801 /* Salty WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		5D9FBFD527657998002E5431 /* Salty */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D9FBFFA2765799A002E5431 /* Build configuration list for PBXNativeTarget "Salty" */;
@@ -221,6 +300,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5D3CEA2629FEABE2004B8801 /* PBXTargetDependency */,
 			);
 			name = Salty;
 			productName = Salty;
@@ -273,6 +353,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					5D3CEA1429FEABDF004B8801 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					5D9FBFD527657998002E5431 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -295,6 +378,9 @@
 				Base,
 			);
 			mainGroup = 5D9FBFCD27657998002E5431;
+			packageReferences = (
+				5D9EAC0C29FF2F8D00EDCEE0 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
 			productRefGroup = 5D9FBFD727657998002E5431 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -302,11 +388,21 @@
 				5D9FBFD527657998002E5431 /* Salty */,
 				5D9FBFE52765799A002E5431 /* SaltyTests */,
 				5D9FBFEF2765799A002E5431 /* SaltyUITests */,
+				5D3CEA1429FEABDF004B8801 /* Salty WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5D3CEA1329FEABDF004B8801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3CEA2129FEABE2004B8801 /* Assets.xcassets in Resources */,
+				5D3CEA2F29FEC8E3004B8801 /* Tides.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D9FBFD427657998002E5431 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,6 +430,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5D3CEA1129FEABDF004B8801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3CEA1C29FEABDF004B8801 /* Salty_WidgetLiveActivity.swift in Sources */,
+				5D3CEA1E29FEABDF004B8801 /* Salty_Widget.swift in Sources */,
+				5D3CEA2E29FEC04A004B8801 /* Station.swift in Sources */,
+				5D3CEA2C29FEBFDA004B8801 /* TodaysTidesViewModel.swift in Sources */,
+				5D3CEA2329FEABE2004B8801 /* Salty_Widget.intentdefinition in Sources */,
+				5D3CEA2B29FEBFD6004B8801 /* WidgetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D9FBFD227657998002E5431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,13 +450,21 @@
 				5D129812277E66000044C2C9 /* TideView.swift in Sources */,
 				5D129813277E66000044C2C9 /* Network.swift in Sources */,
 				5D9EF05527824A15006236CB /* TodaysTidesViewModel.swift in Sources */,
-				5D129810277E66000044C2C9 /* PhraseViewModel.swift in Sources */,
+				5D3CEA3D29FF2320004B8801 /* TideChart.swift in Sources */,
+				5D3CEA3929FEFF27004B8801 /* NextTideViewModel.swift in Sources */,
 				5D12980D277E66000044C2C9 /* StationViewModel.swift in Sources */,
 				5D9FBFDC27657998002E5431 /* StationScreen.swift in Sources */,
+				5D3CEA3729FEE106004B8801 /* NextTideView.swift in Sources */,
+				5D3CEA3129FED1E1004B8801 /* TideList .swift in Sources */,
+				5D3CEA2429FEABE2004B8801 /* Salty_Widget.intentdefinition in Sources */,
 				5DF51C69277661B100FB30BD /* LocationManager.swift in Sources */,
+				5D3CEA4029FF2C63004B8801 /* TideChartView.swift in Sources */,
+				5D3CEA3329FED55F004B8801 /* TideDirection.swift in Sources */,
 				5DAEABA429FDCAD400E54252 /* WidgetView.swift in Sources */,
 				5D9EF05327824A09006236CB /* TodaysTides.swift in Sources */,
 				5D9FBFDA27657998002E5431 /* SaltyApp.swift in Sources */,
+				5D3CEA3B29FEFFED004B8801 /* NextTideWrapperView.swift in Sources */,
+				5D3CEA3529FED8CA004B8801 /* TideCountdown.swift in Sources */,
 				5D9EF0502781389A006236CB /* Station.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +489,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5D3CEA2629FEABE2004B8801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D3CEA1429FEABDF004B8801 /* Salty WidgetExtension */;
+			targetProxy = 5D3CEA2529FEABE2004B8801 /* PBXContainerItemProxy */;
+		};
 		5D9FBFE82765799A002E5431 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5D9FBFD527657998002E5431 /* Salty */;
@@ -385,6 +507,62 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		5D3CEA2829FEABE2004B8801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Salty Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Salty Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seamaker.Salty.Salty-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D3CEA2929FEABE2004B8801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Salty Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Salty Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seamaker.Salty.Salty-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5D9FBFF82765799A002E5431 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -504,6 +682,7 @@
 		5D9FBFFB2765799A002E5431 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +712,7 @@
 		5D9FBFFC2765799A002E5431 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -654,6 +834,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5D3CEA2A29FEABE2004B8801 /* Build configuration list for PBXNativeTarget "Salty WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3CEA2829FEABE2004B8801 /* Debug */,
+				5D3CEA2929FEABE2004B8801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5D9FBFD127657998002E5431 /* Build configuration list for PBXProject "Salty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -691,6 +880,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D9EAC0C29FF2F8D00EDCEE0 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 5D9FBFCE27657998002E5431 /* Project object */;
 }
