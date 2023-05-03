@@ -29,7 +29,6 @@
 		5D3CEA3729FEE106004B8801 /* NextTideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3629FEE106004B8801 /* NextTideView.swift */; };
 		5D3CEA3929FEFF27004B8801 /* NextTideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3829FEFF27004B8801 /* NextTideViewModel.swift */; };
 		5D3CEA3B29FEFFED004B8801 /* NextTideWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3A29FEFFED004B8801 /* NextTideWrapperView.swift */; };
-		5D3CEA3D29FF2320004B8801 /* TideChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3C29FF2320004B8801 /* TideChart.swift */; };
 		5D3CEA4029FF2C63004B8801 /* TideChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */; };
 		5D9EF0502781389A006236CB /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF04F27813899006236CB /* Station.swift */; };
 		5D9EF05327824A09006236CB /* TodaysTides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF05227824A09006236CB /* TodaysTides.swift */; };
@@ -100,7 +99,6 @@
 		5D3CEA3629FEE106004B8801 /* NextTideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTideView.swift; sourceTree = "<group>"; };
 		5D3CEA3829FEFF27004B8801 /* NextTideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTideViewModel.swift; sourceTree = "<group>"; };
 		5D3CEA3A29FEFFED004B8801 /* NextTideWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTideWrapperView.swift; sourceTree = "<group>"; };
-		5D3CEA3C29FF2320004B8801 /* TideChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideChart.swift; sourceTree = "<group>"; };
 		5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideChartView.swift; sourceTree = "<group>"; };
 		5D9EF04F27813899006236CB /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		5D9EF05227824A09006236CB /* TodaysTides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTides.swift; sourceTree = "<group>"; };
@@ -167,6 +165,10 @@
 		5D16CCDE277B5EDF0057F5A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5D12980B277E65FF0044C2C9 /* TideView.swift */,
+				5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */,
+				5D3CEA3629FEE106004B8801 /* NextTideView.swift */,
+				5DAEABA329FDCAD400E54252 /* WidgetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,10 +196,6 @@
 		5D9FBFCD27657998002E5431 = {
 			isa = PBXGroup;
 			children = (
-				5D3CEA3A29FEFFED004B8801 /* NextTideWrapperView.swift */,
-				5D3CEA3829FEFF27004B8801 /* NextTideViewModel.swift */,
-				5D3CEA3229FED55F004B8801 /* TideDirection.swift */,
-				5D3CEA3029FED1E1004B8801 /* TideList .swift */,
 				5D9FBFD827657998002E5431 /* Salty */,
 				5D9FBFE92765799A002E5431 /* SaltyTests */,
 				5D9FBFF32765799A002E5431 /* SaltyUITests */,
@@ -221,13 +219,13 @@
 		5D9FBFD827657998002E5431 /* Salty */ = {
 			isa = PBXGroup;
 			children = (
+				5D3CEA3A29FEFFED004B8801 /* NextTideWrapperView.swift */,
+				5D3CEA3829FEFF27004B8801 /* NextTideViewModel.swift */,
+				5D3CEA3229FED55F004B8801 /* TideDirection.swift */,
+				5D3CEA3029FED1E1004B8801 /* TideList .swift */,
 				5D16CCDE277B5EDF0057F5A5 /* Views */,
 				5D9FBFD927657998002E5431 /* SaltyApp.swift */,
 				5D9FBFDB27657998002E5431 /* StationScreen.swift */,
-				5D3CEA3C29FF2320004B8801 /* TideChart.swift */,
-				5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */,
-				5D3CEA3629FEE106004B8801 /* NextTideView.swift */,
-				5DAEABA329FDCAD400E54252 /* WidgetView.swift */,
 				5D3CEA3429FED8CA004B8801 /* TideCountdown.swift */,
 				5D9EF05227824A09006236CB /* TodaysTides.swift */,
 				5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */,
@@ -235,7 +233,6 @@
 				5D9EF051278138C5006236CB /* Dummy Data */,
 				5D12980C277E66000044C2C9 /* Network.swift */,
 				5D129806277E65FF0044C2C9 /* StationViewModel.swift */,
-				5D12980B277E65FF0044C2C9 /* TideView.swift */,
 				5DF51C68277661B100FB30BD /* LocationManager.swift */,
 				5D9FBFDD2765799A002E5431 /* Assets.xcassets */,
 				5D9FBFDF2765799A002E5431 /* Preview Content */,
@@ -450,7 +447,6 @@
 				5D129812277E66000044C2C9 /* TideView.swift in Sources */,
 				5D129813277E66000044C2C9 /* Network.swift in Sources */,
 				5D9EF05527824A15006236CB /* TodaysTidesViewModel.swift in Sources */,
-				5D3CEA3D29FF2320004B8801 /* TideChart.swift in Sources */,
 				5D3CEA3929FEFF27004B8801 /* NextTideViewModel.swift in Sources */,
 				5D12980D277E66000044C2C9 /* StationViewModel.swift in Sources */,
 				5D9FBFDC27657998002E5431 /* StationScreen.swift in Sources */,
