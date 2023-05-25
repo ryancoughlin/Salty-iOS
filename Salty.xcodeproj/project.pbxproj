@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D12980D277E66000044C2C9 /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D129806277E65FF0044C2C9 /* StationViewModel.swift */; };
 		5D129811277E66000044C2C9 /* Tides.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D12980A277E65FF0044C2C9 /* Tides.json */; };
-		5D129812277E66000044C2C9 /* TideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D12980B277E65FF0044C2C9 /* TideView.swift */; };
-		5D129813277E66000044C2C9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D12980C277E66000044C2C9 /* Network.swift */; };
 		5D3CEA1629FEABDF004B8801 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAEAB8629FDC96900E54252 /* WidgetKit.framework */; };
 		5D3CEA1729FEABDF004B8801 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAEAB8829FDC96900E54252 /* SwiftUI.framework */; };
 		5D3CEA1C29FEABDF004B8801 /* Salty_WidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA1B29FEABDF004B8801 /* Salty_WidgetLiveActivity.swift */; };
@@ -20,8 +17,6 @@
 		5D3CEA2429FEABE2004B8801 /* Salty_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA1F29FEABDF004B8801 /* Salty_Widget.intentdefinition */; };
 		5D3CEA2729FEABE2004B8801 /* Salty WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D3CEA1529FEABDF004B8801 /* Salty WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5D3CEA2B29FEBFD6004B8801 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEABA329FDCAD400E54252 /* WidgetView.swift */; };
-		5D3CEA2C29FEBFDA004B8801 /* TodaysTidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */; };
-		5D3CEA2E29FEC04A004B8801 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF04F27813899006236CB /* Station.swift */; };
 		5D3CEA2F29FEC8E3004B8801 /* Tides.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D12980A277E65FF0044C2C9 /* Tides.json */; };
 		5D3CEA3129FED1E1004B8801 /* TideList .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3029FED1E1004B8801 /* TideList .swift */; };
 		5D3CEA3329FED55F004B8801 /* TideDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3229FED55F004B8801 /* TideDirection.swift */; };
@@ -29,13 +24,6 @@
 		5D3CEA3729FEE106004B8801 /* NextTideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3629FEE106004B8801 /* NextTideView.swift */; };
 		5D3CEA3929FEFF27004B8801 /* NextTideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3829FEFF27004B8801 /* NextTideViewModel.swift */; };
 		5D3CEA3B29FEFFED004B8801 /* NextTideWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3A29FEFFED004B8801 /* NextTideWrapperView.swift */; };
-		5D3CEA3D29FF2320004B8801 /* TideChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3C29FF2320004B8801 /* TideChart.swift */; };
-		5D3CEA4029FF2C63004B8801 /* TideChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */; };
-		5D9EF0502781389A006236CB /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF04F27813899006236CB /* Station.swift */; };
-		5D9EF05327824A09006236CB /* TodaysTides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF05227824A09006236CB /* TodaysTides.swift */; };
-		5D9EF05527824A15006236CB /* TodaysTidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */; };
-		5D9FBFDA27657998002E5431 /* SaltyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFD927657998002E5431 /* SaltyApp.swift */; };
-		5D9FBFDC27657998002E5431 /* StationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFDB27657998002E5431 /* StationScreen.swift */; };
 		5D9FBFDE2765799A002E5431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9FBFDD2765799A002E5431 /* Assets.xcassets */; };
 		5D9FBFE12765799A002E5431 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9FBFE02765799A002E5431 /* Preview Assets.xcassets */; };
 		5D9FBFEB2765799A002E5431 /* SaltyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFEA2765799A002E5431 /* SaltyTests.swift */; };
@@ -43,6 +31,25 @@
 		5D9FBFF72765799A002E5431 /* SaltyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FBFF62765799A002E5431 /* SaltyUITestsLaunchTests.swift */; };
 		5DAEABA429FDCAD400E54252 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEABA329FDCAD400E54252 /* WidgetView.swift */; };
 		5DF51C69277661B100FB30BD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF51C68277661B100FB30BD /* LocationManager.swift */; };
+		AB09B7382A0A8B2400BDB8A9 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B72E2A0A8B2300BDB8A9 /* Station.swift */; };
+		AB09B7392A0A8B2400BDB8A9 /* TodaysTides.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B72F2A0A8B2300BDB8A9 /* TodaysTides.swift */; };
+		AB09B73A2A0A8B2400BDB8A9 /* TideChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7302A0A8B2300BDB8A9 /* TideChartView.swift */; };
+		AB09B73B2A0A8B2400BDB8A9 /* StationViewTidesChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7312A0A8B2300BDB8A9 /* StationViewTidesChart.swift */; };
+		AB09B73C2A0A8B2400BDB8A9 /* TideChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7322A0A8B2300BDB8A9 /* TideChart.swift */; };
+		AB09B73D2A0A8B2400BDB8A9 /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7332A0A8B2300BDB8A9 /* StationViewModel.swift */; };
+		AB09B73E2A0A8B2400BDB8A9 /* StationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7342A0A8B2300BDB8A9 /* StationScreen.swift */; };
+		AB09B73F2A0A8B2400BDB8A9 /* TodaysTidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7352A0A8B2300BDB8A9 /* TodaysTidesViewModel.swift */; };
+		AB09B7402A0A8B2400BDB8A9 /* SaltyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7362A0A8B2300BDB8A9 /* SaltyApp.swift */; };
+		AB09B7412A0A8B2400BDB8A9 /* TideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7372A0A8B2400BDB8A9 /* TideView.swift */; };
+		AB09B7462A0A8B4600BDB8A9 /* UiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7432A0A8B4600BDB8A9 /* UiConstants.swift */; };
+		AB09B7472A0A8B4600BDB8A9 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7442A0A8B4600BDB8A9 /* ColorConstants.swift */; };
+		AB09B7482A0A8B4600BDB8A9 /* CustomMeasurementFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7452A0A8B4600BDB8A9 /* CustomMeasurementFormatter.swift */; };
+		AB09B74A2A0A8B5F00BDB8A9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7492A0A8B5F00BDB8A9 /* Network.swift */; };
+		AB09B74E2A0A8B6700BDB8A9 /* FormatStyle+feet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B74C2A0A8B6700BDB8A9 /* FormatStyle+feet.swift */; };
+		AB09B7502A0A8B7F00BDB8A9 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B72E2A0A8B2300BDB8A9 /* Station.swift */; };
+		AB09B7542A0A8BC700BDB8A9 /* TideResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7522A0A8BC700BDB8A9 /* TideResponse.swift */; };
+		AB09B7552A0A8BC700BDB8A9 /* Tide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB09B7532A0A8BC700BDB8A9 /* Tide.swift */; };
+		AB7EADE42A0AF4D10061AA04 /* SwiftPlus in Frameworks */ = {isa = PBXBuildFile; productRef = AB7EADE32A0AF4D10061AA04 /* SwiftPlus */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,10 +91,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5D129806277E65FF0044C2C9 /* StationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
 		5D12980A277E65FF0044C2C9 /* Tides.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tides.json; sourceTree = "<group>"; };
-		5D12980B277E65FF0044C2C9 /* TideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TideView.swift; sourceTree = "<group>"; };
-		5D12980C277E66000044C2C9 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		5D3CEA1529FEABDF004B8801 /* Salty WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Salty WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3CEA1B29FEABDF004B8801 /* Salty_WidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salty_WidgetLiveActivity.swift; sourceTree = "<group>"; };
 		5D3CEA1D29FEABDF004B8801 /* Salty_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salty_Widget.swift; sourceTree = "<group>"; };
@@ -100,14 +104,7 @@
 		5D3CEA3629FEE106004B8801 /* NextTideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTideView.swift; sourceTree = "<group>"; };
 		5D3CEA3829FEFF27004B8801 /* NextTideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTideViewModel.swift; sourceTree = "<group>"; };
 		5D3CEA3A29FEFFED004B8801 /* NextTideWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTideWrapperView.swift; sourceTree = "<group>"; };
-		5D3CEA3C29FF2320004B8801 /* TideChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideChart.swift; sourceTree = "<group>"; };
-		5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideChartView.swift; sourceTree = "<group>"; };
-		5D9EF04F27813899006236CB /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
-		5D9EF05227824A09006236CB /* TodaysTides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTides.swift; sourceTree = "<group>"; };
-		5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTidesViewModel.swift; sourceTree = "<group>"; };
 		5D9FBFD627657998002E5431 /* Salty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salty.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D9FBFD927657998002E5431 /* SaltyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltyApp.swift; sourceTree = "<group>"; };
-		5D9FBFDB27657998002E5431 /* StationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationScreen.swift; sourceTree = "<group>"; };
 		5D9FBFDD2765799A002E5431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D9FBFE02765799A002E5431 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D9FBFE62765799A002E5431 /* SaltyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaltyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +116,23 @@
 		5DAEAB8829FDC96900E54252 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		5DAEABA329FDCAD400E54252 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
 		5DF51C68277661B100FB30BD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		AB09B72E2A0A8B2300BDB8A9 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		AB09B72F2A0A8B2300BDB8A9 /* TodaysTides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaysTides.swift; sourceTree = "<group>"; };
+		AB09B7302A0A8B2300BDB8A9 /* TideChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TideChartView.swift; sourceTree = "<group>"; };
+		AB09B7312A0A8B2300BDB8A9 /* StationViewTidesChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationViewTidesChart.swift; sourceTree = "<group>"; };
+		AB09B7322A0A8B2300BDB8A9 /* TideChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TideChart.swift; sourceTree = "<group>"; };
+		AB09B7332A0A8B2300BDB8A9 /* StationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
+		AB09B7342A0A8B2300BDB8A9 /* StationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationScreen.swift; sourceTree = "<group>"; };
+		AB09B7352A0A8B2300BDB8A9 /* TodaysTidesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaysTidesViewModel.swift; sourceTree = "<group>"; };
+		AB09B7362A0A8B2300BDB8A9 /* SaltyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaltyApp.swift; sourceTree = "<group>"; };
+		AB09B7372A0A8B2400BDB8A9 /* TideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TideView.swift; sourceTree = "<group>"; };
+		AB09B7432A0A8B4600BDB8A9 /* UiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiConstants.swift; sourceTree = "<group>"; };
+		AB09B7442A0A8B4600BDB8A9 /* ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		AB09B7452A0A8B4600BDB8A9 /* CustomMeasurementFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMeasurementFormatter.swift; sourceTree = "<group>"; };
+		AB09B7492A0A8B5F00BDB8A9 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		AB09B74C2A0A8B6700BDB8A9 /* FormatStyle+feet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FormatStyle+feet.swift"; sourceTree = "<group>"; };
+		AB09B7522A0A8BC700BDB8A9 /* TideResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TideResponse.swift; sourceTree = "<group>"; };
+		AB09B7532A0A8BC700BDB8A9 /* Tide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7EADE42A0AF4D10061AA04 /* SwiftPlus in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,21 +236,25 @@
 		5D9FBFD827657998002E5431 /* Salty */ = {
 			isa = PBXGroup;
 			children = (
+				AB09B7512A0A8BC700BDB8A9 /* Model */,
+				AB09B74B2A0A8B6700BDB8A9 /* Extensions */,
+				AB09B7422A0A8B4600BDB8A9 /* Utilities */,
+				AB09B7362A0A8B2300BDB8A9 /* SaltyApp.swift */,
+				AB09B72E2A0A8B2300BDB8A9 /* Station.swift */,
+				AB09B7342A0A8B2300BDB8A9 /* StationScreen.swift */,
+				AB09B7332A0A8B2300BDB8A9 /* StationViewModel.swift */,
+				AB09B7312A0A8B2300BDB8A9 /* StationViewTidesChart.swift */,
+				AB09B7322A0A8B2300BDB8A9 /* TideChart.swift */,
+				AB09B7302A0A8B2300BDB8A9 /* TideChartView.swift */,
+				AB09B7372A0A8B2400BDB8A9 /* TideView.swift */,
+				AB09B72F2A0A8B2300BDB8A9 /* TodaysTides.swift */,
+				AB09B7352A0A8B2300BDB8A9 /* TodaysTidesViewModel.swift */,
 				5D16CCDE277B5EDF0057F5A5 /* Views */,
-				5D9FBFD927657998002E5431 /* SaltyApp.swift */,
-				5D9FBFDB27657998002E5431 /* StationScreen.swift */,
-				5D3CEA3C29FF2320004B8801 /* TideChart.swift */,
-				5D3CEA3F29FF2C63004B8801 /* TideChartView.swift */,
 				5D3CEA3629FEE106004B8801 /* NextTideView.swift */,
+				AB09B7492A0A8B5F00BDB8A9 /* Network.swift */,
 				5DAEABA329FDCAD400E54252 /* WidgetView.swift */,
 				5D3CEA3429FED8CA004B8801 /* TideCountdown.swift */,
-				5D9EF05227824A09006236CB /* TodaysTides.swift */,
-				5D9EF05427824A15006236CB /* TodaysTidesViewModel.swift */,
-				5D9EF04F27813899006236CB /* Station.swift */,
 				5D9EF051278138C5006236CB /* Dummy Data */,
-				5D12980C277E66000044C2C9 /* Network.swift */,
-				5D129806277E65FF0044C2C9 /* StationViewModel.swift */,
-				5D12980B277E65FF0044C2C9 /* TideView.swift */,
 				5DF51C68277661B100FB30BD /* LocationManager.swift */,
 				5D9FBFDD2765799A002E5431 /* Assets.xcassets */,
 				5D9FBFDF2765799A002E5431 /* Preview Content */,
@@ -266,6 +285,33 @@
 				5D9FBFF62765799A002E5431 /* SaltyUITestsLaunchTests.swift */,
 			);
 			path = SaltyUITests;
+			sourceTree = "<group>";
+		};
+		AB09B7422A0A8B4600BDB8A9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AB09B7432A0A8B4600BDB8A9 /* UiConstants.swift */,
+				AB09B7442A0A8B4600BDB8A9 /* ColorConstants.swift */,
+				AB09B7452A0A8B4600BDB8A9 /* CustomMeasurementFormatter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AB09B74B2A0A8B6700BDB8A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB09B74C2A0A8B6700BDB8A9 /* FormatStyle+feet.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB09B7512A0A8BC700BDB8A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB09B7522A0A8BC700BDB8A9 /* TideResponse.swift */,
+				AB09B7532A0A8BC700BDB8A9 /* Tide.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +349,9 @@
 				5D3CEA2629FEABE2004B8801 /* PBXTargetDependency */,
 			);
 			name = Salty;
+			packageProductDependencies = (
+				AB7EADE32A0AF4D10061AA04 /* SwiftPlus */,
+			);
 			productName = Salty;
 			productReference = 5D9FBFD627657998002E5431 /* Salty.app */;
 			productType = "com.apple.product-type.application";
@@ -380,6 +429,7 @@
 			mainGroup = 5D9FBFCD27657998002E5431;
 			packageReferences = (
 				5D9EAC0C29FF2F8D00EDCEE0 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+				AB7EADE22A0AF4D10061AA04 /* XCRemoteSwiftPackageReference "SwiftPlus" */,
 			);
 			productRefGroup = 5D9FBFD727657998002E5431 /* Products */;
 			projectDirPath = "";
@@ -435,9 +485,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3CEA1C29FEABDF004B8801 /* Salty_WidgetLiveActivity.swift in Sources */,
+				AB09B7502A0A8B7F00BDB8A9 /* Station.swift in Sources */,
 				5D3CEA1E29FEABDF004B8801 /* Salty_Widget.swift in Sources */,
-				5D3CEA2E29FEC04A004B8801 /* Station.swift in Sources */,
-				5D3CEA2C29FEBFDA004B8801 /* TodaysTidesViewModel.swift in Sources */,
 				5D3CEA2329FEABE2004B8801 /* Salty_Widget.intentdefinition in Sources */,
 				5D3CEA2B29FEBFD6004B8801 /* WidgetView.swift in Sources */,
 			);
@@ -447,25 +496,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D129812277E66000044C2C9 /* TideView.swift in Sources */,
-				5D129813277E66000044C2C9 /* Network.swift in Sources */,
-				5D9EF05527824A15006236CB /* TodaysTidesViewModel.swift in Sources */,
-				5D3CEA3D29FF2320004B8801 /* TideChart.swift in Sources */,
+				AB09B73E2A0A8B2400BDB8A9 /* StationScreen.swift in Sources */,
+				AB09B73D2A0A8B2400BDB8A9 /* StationViewModel.swift in Sources */,
+				AB09B74E2A0A8B6700BDB8A9 /* FormatStyle+feet.swift in Sources */,
 				5D3CEA3929FEFF27004B8801 /* NextTideViewModel.swift in Sources */,
-				5D12980D277E66000044C2C9 /* StationViewModel.swift in Sources */,
-				5D9FBFDC27657998002E5431 /* StationScreen.swift in Sources */,
+				AB09B73B2A0A8B2400BDB8A9 /* StationViewTidesChart.swift in Sources */,
+				AB09B73A2A0A8B2400BDB8A9 /* TideChartView.swift in Sources */,
 				5D3CEA3729FEE106004B8801 /* NextTideView.swift in Sources */,
 				5D3CEA3129FED1E1004B8801 /* TideList .swift in Sources */,
+				AB09B7412A0A8B2400BDB8A9 /* TideView.swift in Sources */,
+				AB09B7542A0A8BC700BDB8A9 /* TideResponse.swift in Sources */,
 				5D3CEA2429FEABE2004B8801 /* Salty_Widget.intentdefinition in Sources */,
+				AB09B7472A0A8B4600BDB8A9 /* ColorConstants.swift in Sources */,
+				AB09B7482A0A8B4600BDB8A9 /* CustomMeasurementFormatter.swift in Sources */,
+				AB09B73C2A0A8B2400BDB8A9 /* TideChart.swift in Sources */,
+				AB09B7552A0A8BC700BDB8A9 /* Tide.swift in Sources */,
+				AB09B7402A0A8B2400BDB8A9 /* SaltyApp.swift in Sources */,
+				AB09B7462A0A8B4600BDB8A9 /* UiConstants.swift in Sources */,
 				5DF51C69277661B100FB30BD /* LocationManager.swift in Sources */,
-				5D3CEA4029FF2C63004B8801 /* TideChartView.swift in Sources */,
 				5D3CEA3329FED55F004B8801 /* TideDirection.swift in Sources */,
+				AB09B7382A0A8B2400BDB8A9 /* Station.swift in Sources */,
+				AB09B73F2A0A8B2400BDB8A9 /* TodaysTidesViewModel.swift in Sources */,
 				5DAEABA429FDCAD400E54252 /* WidgetView.swift in Sources */,
-				5D9EF05327824A09006236CB /* TodaysTides.swift in Sources */,
-				5D9FBFDA27657998002E5431 /* SaltyApp.swift in Sources */,
+				AB09B7392A0A8B2400BDB8A9 /* TodaysTides.swift in Sources */,
 				5D3CEA3B29FEFFED004B8801 /* NextTideWrapperView.swift in Sources */,
 				5D3CEA3529FED8CA004B8801 /* TideCountdown.swift in Sources */,
-				5D9EF0502781389A006236CB /* Station.swift in Sources */,
+				AB09B74A2A0A8B5F00BDB8A9 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,7 +670,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -669,7 +725,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -890,7 +946,23 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		AB7EADE22A0AF4D10061AA04 /* XCRemoteSwiftPackageReference "SwiftPlus" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/julianworden/SwiftPlus.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB7EADE32A0AF4D10061AA04 /* SwiftPlus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7EADE22A0AF4D10061AA04 /* XCRemoteSwiftPackageReference "SwiftPlus" */;
+			productName = SwiftPlus;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D9FBFCE27657998002E5431 /* Project object */;
 }
